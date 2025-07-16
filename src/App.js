@@ -18,7 +18,7 @@ const App = () => {
 
   const TG_ID_RAW = window.Telegram?.WebApp?.initDataUnsafe?.user?.id;
   const TG_ID = TG_ID_RAW ? parseInt(TG_ID_RAW, 10) : 123456789;
-  const ADMIN_IDS = new Set([860936779, 123456789]);
+  const ADMIN_IDS = new Set([702912659, 123456789]);
   const IS_ADMIN = ADMIN_IDS.has(TG_ID);
 
   const loadProfile = useCallback(async () => {
